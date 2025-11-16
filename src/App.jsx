@@ -1,9 +1,10 @@
 import { useState,useEffect } from 'react'
-import Navbar from './components/navbar.jsx'
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { v4 as uuidv4 } from 'uuid';
-import Footer from './components/Footer.jsx';
 
 
 const App = () => {
